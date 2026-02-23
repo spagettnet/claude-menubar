@@ -35,7 +35,7 @@ When Claude Code is waiting -- permission requests, questions, tool approvals, o
 Clone the repo and run the install script:
 
 ```bash
-git clone https://github.com/mpillari/claude-menubar.git
+git clone https://github.com/spagettnet/claude-menubar.git
 cd claude-menubar
 ./install.sh
 ```
