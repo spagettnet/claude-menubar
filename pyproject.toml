@@ -1,0 +1,17 @@
+[project]
+name = "claude-menubar"
+version = "0.1.0"
+description = "macOS menu bar app that shows when Claude Code is waiting for input"
+requires-python = ">=3.10"
+dependencies = [
+    "pyobjc-framework-Cocoa>=10.0",
+    "pyobjc-framework-WebKit>=10.0",
+    "Pillow>=10.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+claude-menubar = "claude_menubar.app:main"
